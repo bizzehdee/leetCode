@@ -1,5 +1,8 @@
 ﻿namespace leetCode;
 
+/// <summary>
+/// https://leetcode.com/problems/merge-sorted-array?envType=study-plan-v2&envId=top-interview-150
+/// </summary>
 public class MergeSortedArray
 {
     public void MergeDotnet(int[] nums1, int m, int[] nums2, int n)

@@ -1,5 +1,8 @@
 ﻿namespace leetCode;
 
+/// <summary>
+/// https://leetcode.com/problems/remove-duplicates-from-sorted-array/?envType=study-plan-v2&envId=top-interview-150
+/// </summary>
 public class RemoveDuplicatesFromSortedArray
 {
     public int RemoveDuplicatesFromSortedArrayMine(int[] nums)

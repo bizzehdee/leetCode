@@ -1,5 +1,8 @@
 ﻿namespace leetCode;
 
+/// <summary>
+/// https://leetcode.com/problems/remove-element?envType=study-plan-v2&envId=top-interview-150
+/// </summary>
 public class RemoveElement
 {
     public int RemoveElementMine(int[] nums, int val)
