@@ -1,4 +1,4 @@
-﻿namespace leetCode;
+﻿namespace leetCode.ArrayAndString;
 
 /// <summary>
 /// https://leetcode.com/problems/merge-sorted-array?envType=study-plan-v2&envId=top-interview-150
@@ -29,6 +29,6 @@ public class MergeSortedArray
                 j--;
             }
             nums1[j + 1] = temp;
-        }    
+        }
     }
 }

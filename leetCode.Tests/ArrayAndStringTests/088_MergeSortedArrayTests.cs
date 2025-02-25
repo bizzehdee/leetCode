@@ -1,4 +1,6 @@
-namespace leetCode.Tests;
+using leetCode.ArrayAndString;
+
+namespace leetCode.Tests.ArrayAndStringTests;
 
 [TestFixture]
 public class MergeSortedArrayTests
@@ -48,8 +50,8 @@ public class MergeSortedArrayTests
 
         Assert.That(nums1, Is.EqualTo(new[] { 1 }));
     }
-    
-        [Test]
+
+    [Test]
     public void Mine_Test1()
     {
         var msa = new MergeSortedArray();
@@ -78,8 +80,8 @@ public class MergeSortedArrayTests
 
         Assert.That(nums1, Is.EqualTo(new[] { 1 }));
     }
-    
-    
+
+
     [Test]
     public void Mine_Test3()
     {

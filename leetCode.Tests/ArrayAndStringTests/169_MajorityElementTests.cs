@@ -1,4 +1,6 @@
-namespace leetCode.Tests;
+using leetCode.ArrayAndString;
+
+namespace leetCode.Tests.ArrayAndStringTests;
 
 [TestFixture]
 public class MajorityElementTests
@@ -31,7 +33,7 @@ public class MajorityElementTests
     public void Dotnet_Test4()
     {
         var me = new MajorityElement();
-        var retVal = me.MajorityElementDotnet(new int[] { 6,5,5 });
+        var retVal = me.MajorityElementDotnet(new int[] { 6, 5, 5 });
         Assert.That(retVal, Is.EqualTo(5));
     }
 

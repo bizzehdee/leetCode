@@ -1,4 +1,6 @@
-namespace leetCode.Tests;
+using leetCode.ArrayAndString;
+
+namespace leetCode.Tests.ArrayAndStringTests;
 
 [TestFixture]
 public class RemoveDuplicatesFromSortedArrayV2Tests
