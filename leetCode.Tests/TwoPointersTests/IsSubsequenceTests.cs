@@ -29,7 +29,7 @@ public class IsSubsequenceTests
         var retVal = iss.IsSubsequenceMine("acb", "ahbgdc");
         Assert.That(retVal, Is.False);
     }
-    
+
     [Test]
     public void Mine_Test4()
     {
