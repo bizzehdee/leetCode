@@ -8,7 +8,7 @@ public class ValidSudoku
         for (var c = 0; c < 9; c++)
         {
             //check row
-            for (int i = 0; i < 9; i++)
+            for (var i = 0; i < 9; i++)
             {
                 if (board[c][i] == '.')
                 {
@@ -23,7 +23,7 @@ public class ValidSudoku
             hashset.Clear();
             
             //check column
-            for (int i = 0; i < 9; i++)
+            for (var i = 0; i < 9; i++)
             {
                 if (board[i][c] == '.')
                 {
@@ -38,9 +38,9 @@ public class ValidSudoku
             hashset.Clear();
             
             //check 3x3
-            for(int x=0; x<3; x++)
+            for(var x=0; x<3; x++)
             {
-                for(int y=0; y<3; y++)
+                for(var y=0; y<3; y++)
                 {
                     var i = c / 3 * 3 + x;
                     var j = c % 3 * 3 + y;
